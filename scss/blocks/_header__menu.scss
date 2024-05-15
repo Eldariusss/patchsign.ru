@@ -1,0 +1,20 @@
+.header {
+    background-color: #171717;
+    &__menu {
+        display: flex;
+    }
+    &__title {
+        margin-top: 230px;
+    }
+    &__subtitle {
+        margin-top: 280px;
+    }
+}
+
+.menu-main {
+    &__list{
+        display: flex;
+        gap:157px;
+    }
+}
+
