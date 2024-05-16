@@ -1,0 +1,21 @@
+.about {
+    background-image: url(/img/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0px;
+    background-size: 100% auto;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    &__wrapper {
+        text-align: left;
+        
+    }
+    &__title {
+        margin-top: 1700px;
+        font-weight: 700;
+    }
+
+}

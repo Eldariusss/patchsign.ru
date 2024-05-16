@@ -1,0 +1,17 @@
+ .button {
+    display: inline-block;
+    background-color: var(--white);
+    color: var(--black);
+    padding: 22px 0px;
+    text-decoration: none;
+    width: 300px;
+    height: 65px;
+    border-radius: 20px;
+    margin-top: 130px;
+    &-svg {
+        display: inline-block;
+        width: 28px;
+        height: 23px;
+        vertical-align: middle;
+    }
+ }

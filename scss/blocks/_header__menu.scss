@@ -1,7 +1,11 @@
 .header {
-    background-color: #171717;
+    background-color: var(--bg-black);
+    padding: 80px 10px; 
     &__menu {
         display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-between;
     }
     &__title {
         margin-top: 230px;
