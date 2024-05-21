@@ -124,26 +124,25 @@ img {
 }
 
 .about {
-  background-image: url(/img/about-bg.png);
+  background-image: url(/img/bg/about-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 0px;
   background-size: 100% auto;
   width: 100%;
-  padding: 55px 0px;
-  position: absolute;
-  z-index: 1;
-}
-.about__image-container {
-  position: relative;
+  padding: 55px 0px 0 0;
 }
 .about__button-wrapper {
   text-align: center;
 }
 .about__wrapper {
   margin-top: 1700px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  justify-content: space-between;
 }
-.about .about__title {
+.about__title {
   font-weight: 700;
 }
 .about__subtitle {
@@ -157,14 +156,12 @@ img {
 .about__connect-subtitle {
   font-weight: 400;
   margin-top: 25px;
+  color: rgb(146, 146, 146);
 }
-.about__photo-bg {
-  position: absolute;
-  top: 50%;
-  right: 10%;
-  z-index: 2;
-  width: 725px;
-  height: 1098px;
+.about__photo-text {
+  max-width: 725px;
+  min-height: 1100px;
+  width: 100%;
 }
 
 .button {
@@ -182,4 +179,8 @@ img {
   width: 28px;
   height: 23px;
   vertical-align: middle;
+}
+
+.middle {
+  background: var(--bg-black);
 }/*# sourceMappingURL=style.css.map */

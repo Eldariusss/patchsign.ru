@@ -1,23 +1,21 @@
 .about {
-    background-image: url(/img/about-bg.png);
+    background-image: url(/img/bg/about-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 0px;
     background-size: 100% auto;
     width: 100%;
-    padding: 55px 0px;
-    position: absolute;
-    z-index: 1;
-    &__image-container {
-        position: relative;
-    }
+    padding: 55px 0px 0 0;
     &__button-wrapper{
         text-align: center;
     }
     &__wrapper {
         margin-top: 1700px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: flex-start;
+        justify-content: space-between;
     }
-    &
     &__title {
         font-weight: 700;
     }
@@ -32,13 +30,11 @@
     &__connect-subtitle {
         font-weight: 400;
         margin-top: 25px;
+        color: rgb(146, 146, 146)
     }
-    &__photo-bg {
-        position: absolute;
-        top: 50%;
-        right: 10%;
-        z-index: 2;
-        width: 725px;
-        height: 1098px;
+    &__photo-text {
+        max-width: 725px;
+        min-height: 1100px;
+        width: 100%;
     }
 }
