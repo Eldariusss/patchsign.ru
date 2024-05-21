@@ -130,7 +130,11 @@ img {
   background-position: center 0px;
   background-size: 100% auto;
   width: 100%;
-  padding: 130px 0px;
+  padding: 55px 0px;
+  position: absolute;
+  z-index: 1;
+}
+.about__image-container {
   position: relative;
 }
 .about__button-wrapper {
@@ -143,7 +147,7 @@ img {
   font-weight: 700;
 }
 .about__subtitle {
-  margin-top: 150px;
+  margin-top: 120px;
   font-weight: 400;
 }
 .about__button {
@@ -153,6 +157,14 @@ img {
 .about__connect-subtitle {
   font-weight: 400;
   margin-top: 25px;
+}
+.about__photo-bg {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  z-index: 2;
+  width: 725px;
+  height: 1098px;
 }
 
 .button {
