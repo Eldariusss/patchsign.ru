@@ -1,37 +1,19 @@
 .kind {
-    background-color: var(--bg-black);
-    &__line{
-        position: relative;
-        background-color: var(--bg-black);
-        max-height: 1081px;
-    }
-    
-    &__line::before,
-    &__line::after {
-        content: '';
-        position: absolute;
-        left: 0;
+    background: rgb(0, 0, 0);
+    &__wrapper {
+        display: flex;
+        justify-content: center;
         width: 100%;
-        height: 1px; /* Высота линии */
-        background-color: var(--white); /* Цвет линии */
+
     }
-    
-    &__line::before {
-        top: 0; /* Позиция верхней линии */
+    &__vecro {
+        border: 1px solid rgb(255, 255, 255);
+        flex: 1;
+        border-left: none; 
     }
-    
-    &__line::after {
-        bottom: 0; /* Позиция нижней линии */
+    &__glue {
+        border: 1px solid rgb(255, 255, 255);
+        flex: 1;
+        border-right: none; 
     }
-    
-    &__line-middle {
-        position: absolute;
-        top: 0; /* Позиция средней линии */
-        left: 50%;
-        width: 100%;
-        height: 1px; /* Высота линии */
-        background-color: var(--white); /* Цвет линии */
-        transform: translateX(-50%); /* Центрирование линии по вертикали */
-    }
-    
 }
