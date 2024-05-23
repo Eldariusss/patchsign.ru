@@ -1,3 +1,32 @@
 .middle {
     background: var(--bg-black);
+    &__picture-solo {
+        filter: grayscale(100%);
+        max-width: 476px;
+        min-height: 518px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 190px;
+    }
+    &__content {
+        display: flex;
+        flex-direction: column;
+    }
+    &__text {
+        text-align: left;
+    }
+    &__text-title {
+        font-weight: 400;
+    }
+    &__pic {
+        margin-top: 50px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__photo-text {
+        max-width: 725px;
+        min-height: 518px;
+    }
 }
