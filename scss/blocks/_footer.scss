@@ -1,0 +1,18 @@
+.footer {
+    background: rgb(0, 0, 0);
+    padding-top: 150px;
+    padding-bottom: 50px;
+    &__wrapper {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-content: center;
+    }
+    &__policy {
+        font-weight: 400;
+        color: rgb(146, 146, 146);
+    }
+    &__rights {
+        font-weight: 400;
+    }
+}
