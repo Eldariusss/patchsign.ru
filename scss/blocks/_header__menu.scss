@@ -20,6 +20,9 @@
     &__list{
         display: flex;
         gap:157px;
+        @media screen and (max-width: 1280px) {
+            gap: 88px;
+        }
     }
 }
 
