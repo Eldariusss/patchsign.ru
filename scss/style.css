@@ -333,9 +333,7 @@ img {
   justify-content: center;
   align-items: center;
   width: 100%;
-}
-.kind__vecro-img {
-  height: 500px;
+  margin-bottom: auto;
 }
 .kind__vecro-subtitle {
   font-weight: 400;
@@ -367,9 +365,7 @@ img {
   justify-content: center;
   align-items: center;
   width: 100%;
-}
-.kind__glue-img {
-  height: 500px;
+  margin-bottom: auto;
 }
 .kind__glue-subtitle {
   font-weight: 400;
