@@ -8,12 +8,22 @@
         flex-flow: row nowrap;
         width: 100%;
         justify-content: space-between;
+        @media screen and (max-width: 800px) {
+            flex-flow: column nowrap;
+            text-align: center;
+        }
     }
     &__title {
         margin-bottom: 180px;
+        @media screen and (max-width: 1024px) {
+            margin-bottom: 100px;
+         }
     }
     &__title-main {
         font-size: 80px;
+        @media screen and (max-width: 800px) {
+            font-size: 70px;
+        }
     }
     &__vecro {
         border: 1px solid rgb(255, 255, 255);
@@ -26,15 +36,29 @@
         padding-right: 80px;
         padding-top: 20px;
         padding-bottom: 100px;
+        @media screen and (max-width: 1024px) {
+            padding-right: 25px;
+         }
+         @media screen and (max-width: 800px) {
+            gap: 33px;
+            border: 1px solid rgb(255, 255, 255);
+            text-align: center;
+        }
     }
     &__vecro-num {
         font-weight: 400;
     }
     &__vecro-tittle{
         font-weight: 700;
+        @media screen and (max-width: 800px) {
+            font-size: 30px;
+        }
     }
     &__vecro-price {
         font-weight: 700;
+        @media screen and (max-width: 800px) {
+            font-size: 21px;
+        }
     }
     &__vecro-pic {
         display: flex;
@@ -46,6 +70,12 @@
     &__vecro-subtitle {
         font-weight: 400;
         text-align: center;
+        @media screen and (max-width: 1024px) {
+            font-size: 14px;
+         }
+         @media screen and (max-width: 800px) {
+            font-size: 12px;
+        }
     }
 
     &__glue {
@@ -59,6 +89,10 @@
         padding-left: 80px;
         padding-top: 20px;
         padding-bottom: 100px;
+        @media screen and (max-width: 1024px) {
+            padding-left: 25px;
+            border: 1px solid rgb(255, 255, 255);
+         }
     }
     &__glue-num {
         font-weight: 400;
@@ -75,9 +109,14 @@
         align-items: center;
         width: 100%;
         margin-bottom: auto;
+
     }
+    
     &__glue-subtitle {
         font-weight: 400;
         text-align: center;
+        @media screen and (max-width: 1024px) {
+            font-size: 14px;
+         }
     }
 }

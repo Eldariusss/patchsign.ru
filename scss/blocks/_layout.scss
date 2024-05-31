@@ -5,4 +5,8 @@
         padding-left: 65px;
         padding-right: 65px;
      }
+     @media screen and (max-width: 800px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }

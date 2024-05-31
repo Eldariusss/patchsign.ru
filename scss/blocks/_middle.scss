@@ -32,13 +32,13 @@
         @media screen and (max-width: 1024px) {
             font-size: 13px;
         }
+        @media screen and (max-width: 800px) {
+            font-size: 11px;
+        }
     }
     &__pic {
         margin-top: 50px;
         display: flex;
         justify-content: flex-end;
-    }
-    &__photo-text {
-        min-height: 518px;
     }
 }

@@ -11,11 +11,20 @@
     &__policy {
         font-weight: 400;
         color: rgb(146, 146, 146);
+        @media screen and (max-width: 1024px) {
+            font-size: 9px;
+         }
     }
     &__rights {
         font-weight: 400;
+        @media screen and (max-width: 1024px) {
+            font-size: 9px;
+         }
     }
     &__website {
         text-decoration: none ;
+        @media screen and (max-width: 1024px) {
+            font-size: 20px;
+         }
     }
 }

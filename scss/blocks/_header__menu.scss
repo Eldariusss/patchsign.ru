@@ -30,12 +30,18 @@
             gap: 88px;
         }
         @media screen and (max-width: 1024px) {
-            gap: 60px;
+            gap: 45px;
+        }
+        @media screen and (max-width: 800px) {
+            gap: 33px;
         }
     }
     &__item {
         @media screen and (max-width: 1024px) {
             font-size: 13px;
+        }
+        @media screen and (max-width: 800px) {
+            font-size: 12px;
         }
         
     }

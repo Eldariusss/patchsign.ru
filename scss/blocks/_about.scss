@@ -19,11 +19,17 @@
         @media screen and (max-width: 1024px) {
             width: 74%;
          }
+         @media screen and (max-width: 800px) {
+            width: 95%;
+        }
     }
     &__title {
         font-weight: 700;
         @media screen and (max-width: 1024px) {
             font-size: 80px;
+        }
+        @media screen and (max-width: 800px) {
+            font-size: 68px;
         }
     }
     &__subtitle {
@@ -32,10 +38,18 @@
         @media screen and (max-width: 1024px) {
             font-size: 13px;
         }
+        @media screen and (max-width: 800px) {
+            font-size: 11px;
+            margin-top: 90px;
+        }
     }
     &__button {
         text-align: center;
         margin-top: 100px;
+        @media screen and (max-width: 800px) {
+            width: 0;
+        }
+        
     }
     &__connect-subtitle {
         font-weight: 400;
@@ -43,6 +57,9 @@
         color: rgb(146, 146, 146);
         @media screen and (max-width: 1024px) {
             font-size: 11px;
+        }
+        @media screen and (max-width: 800px) {
+            font-size: 9px;
         }
     }
     &__photo-text {
