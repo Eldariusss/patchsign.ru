@@ -30,13 +30,30 @@
             display: block;
         }
     }
+    &__burger-svg {
+        color: var(--white);
+    }
     &__menu-toggle {
         @media screen and (max-width: 768px) {
             display: none;
         }
     }
-    &__menu-toggle:checked + &__menu-burger + .menu-main__list {
-        display: flex; 
+    &__menu-burger {
+        display: none;
+        cursor: pointer;
+        @media screen and (max-width: 768px) {
+            display: block;
+        }
+    }
+    &__menu-togle {
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+    }
+    &__menu-toggle:checked + .burger-menu + .menu-main__list {
+        @media screen and (max-width: 768px) {
+            display: flex;
+        }
     }
     &__item {
         @media screen and (max-width: 1024px) {
@@ -47,7 +64,9 @@
         }
         
     }
-}
+ }
+   
+
 
 .menu-main {
     &__list{
