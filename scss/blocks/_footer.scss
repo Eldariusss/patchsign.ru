@@ -17,6 +17,9 @@
          @media screen and (max-width: 620px) {
             font-size: 8px;
         }
+        @media screen and (max-width: 410px) {
+            font-size: 5px;
+        }
     }
     &__rights {
         font-weight: 400;
@@ -26,6 +29,10 @@
          @media screen and (max-width: 620px) {
             font-size: 8px;
         }
+        @media screen and (max-width: 410px) {
+            font-size: 5px;
+        }
+        
     }
     &__website {
         text-decoration: none ;
@@ -34,6 +41,9 @@
          }
          @media screen and (max-width: 620px) {
             font-size: 14px;
+        }
+        @media screen and (max-width: 410px) {
+            font-size: 12px;
         }
     }
 }
