@@ -44,12 +44,18 @@
         @media screen and (max-width: 800px) {
             font-size: 65px;
         }
+        @media screen and (max-width: 620px) {
+            font-size: 55px;
+        }
     }
     &__cercle {
         display: flex;
         justify-content: space-around;
         align-items: center;
         gap: 20px;
+        @media screen and (max-width: 620px) {
+            gap: 8px;
+        }
     }
     &__cercle-one, &__cercle-two {
         display: flex;
@@ -73,6 +79,16 @@
         @media screen and (max-width: 800px) {
             width: 350px;
             height: 350px;
+        }
+        @media screen and (max-width: 727px) {
+            width: 334px;
+            height: 334px;
+            font-size: 14px;
+        }
+        @media screen and (max-width: 620px) {
+            width: 280px;
+            height: 280px; 
+            font-size: 13px;
         }
     }
 }
