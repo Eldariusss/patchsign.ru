@@ -24,6 +24,9 @@
         @media screen and (max-width: 800px) {
             font-size: 70px;
         }
+        @media screen and (max-width: 620px) {
+            font-size: 60px;
+        }
     }
     &__vecro {
         border: 1px solid rgb(255, 255, 255);
@@ -47,6 +50,9 @@
     }
     &__vecro-num {
         font-weight: 400;
+        @media screen and (max-width: 620px) {
+            font-size: 13px;
+        }
     }
     &__vecro-tittle{
         font-weight: 700;
@@ -96,12 +102,21 @@
     }
     &__glue-num {
         font-weight: 400;
+        @media screen and (max-width: 800px) {
+            font-size: 13px;
+        }
     }
     &__glue-tittle{
         font-weight: 700;
+        @media screen and (max-width: 800px) {
+            font-size: 30px;
+        }
     }
     &__glue-price {
         font-weight: 700;
+        @media screen and (max-width: 800px) {
+            font-size: 21px;
+        }
     }
     &__glue-pic {
         display: flex;
@@ -118,5 +133,8 @@
         @media screen and (max-width: 1024px) {
             font-size: 14px;
          }
+         @media screen and (max-width: 800px) {
+            font-size: 12px;
+        }
     }
 }

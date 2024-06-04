@@ -8,10 +8,14 @@
         @media screen and (max-width: 1024px) {
             width: 41vw;
          }
+         @media screen and (max-width: 620px) {
+            width: 50vw;
+        }
     }
     &__picture-solo {
         filter: grayscale(100%);
-        min-height: 518px;
+        max-height: 518px;
+        
     }
     &__wrapper {
         display: flex;
@@ -35,10 +39,21 @@
         @media screen and (max-width: 800px) {
             font-size: 11px;
         }
+        @media screen and (max-width: 620px) {
+            font-size: 9px;
+        }
+        
     }
     &__pic {
         margin-top: 50px;
         display: flex;
         justify-content: flex-end;
+        @media screen and (max-width: 620px) {
+            width: 50vw;
+        }
     }
+    &__photo-text {
+        max-height: 518px;
+    }
+    
 }

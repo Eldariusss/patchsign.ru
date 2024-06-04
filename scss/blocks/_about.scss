@@ -22,6 +22,9 @@
          @media screen and (max-width: 800px) {
             width: 95%;
         }
+        @media screen and (max-width: 620px) {
+            width: 114%;
+        }
     }
     &__title {
         font-weight: 700;
@@ -30,6 +33,9 @@
         }
         @media screen and (max-width: 800px) {
             font-size: 68px;
+        }
+        @media screen and (max-width: 620px) {
+            font-size: 60px;
         }
     }
     &__subtitle {
@@ -41,6 +47,10 @@
         @media screen and (max-width: 800px) {
             font-size: 11px;
             margin-top: 90px;
+        }
+        @media screen and (max-width: 620px) {
+            font-size: 9px;
+            margin-top: 73px;
         }
     }
     &__button {
@@ -61,10 +71,14 @@
         @media screen and (max-width: 800px) {
             font-size: 9px;
         }
+        @media screen and (max-width: 620px) {
+            font-size: 8px;
+        }
     }
     &__photo-text {
         max-width: 725px;
         max-height: 1100px;
         width: 100%;
     }
+    
 }
