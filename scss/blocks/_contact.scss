@@ -47,6 +47,9 @@
         @media screen and (max-width: 620px) {
             font-size: 55px;
         }
+        @media screen and (max-width: 522px) {
+            font-size: 47px;
+        }
     }
     &__cercle {
         display: flex;
@@ -89,6 +92,14 @@
             width: 280px;
             height: 280px; 
             font-size: 13px;
+        }
+        @media screen and (max-width: 522px) {
+            width: 230px;
+            height: 230px;
+        }
+        @media screen and (max-width: 522px) {
+            width: 200px;
+            height: 200px;
         }
     }
 }

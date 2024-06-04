@@ -18,14 +18,17 @@
         @media screen and (max-width: 1024px) {
             margin-bottom: 100px;
          }
+         @media screen and (max-width: 522px) {
+            font-size: 12px;
+        }
     }
     &__title-main {
         font-size: 80px;
         @media screen and (max-width: 800px) {
             font-size: 70px;
         }
-        @media screen and (max-width: 620px) {
-            font-size: 60px;
+        @media screen and (max-width: 441px) {
+            font-size: 50px;
         }
     }
     &__vecro {
@@ -82,6 +85,9 @@
          @media screen and (max-width: 800px) {
             font-size: 12px;
         }
+        @media screen and (max-width: 522px) {
+            font-size: 10px;
+        }
     }
 
     &__glue {
@@ -135,6 +141,9 @@
          }
          @media screen and (max-width: 800px) {
             font-size: 12px;
+        }
+        @media screen and (max-width: 522px) {
+            font-size: 10px;
         }
     }
 }

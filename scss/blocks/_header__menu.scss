@@ -1,13 +1,13 @@
 .header {
     background-color: var(--bg-black);
     padding: 80px 10px; 
+    position: relative;
     &__menu {
         display: flex;
         flex-flow: row nowrap;
         align-items: center;
         justify-content: space-between;
         cursor: pointer;
-        position: relative;
     }
     &__menu-logo {
         position: relative;
@@ -15,10 +15,9 @@
         @media screen and (max-width: 620px) {
             font-size: 14px;
         }
-    }
-    &__menu-main {
-        position: relative;
-        z-index: 2;
+        @media screen and (max-width: 522px) {
+            font-size: 12px;
+        }
     }
     &__title {
         margin-top: 230px;
@@ -42,6 +41,9 @@
     &__burger-svg {
         filter: invert(100%) brightness(200%);
         width: 40px;
+        @media screen and (max-width: 522px) {
+            width: 34px;
+        }
     }
     &__menu-toggle {
         @media screen and (max-width: 768px) {
@@ -76,13 +78,15 @@
             display: none;
             flex-direction: column;
             position: absolute;
-            width: 89vw;
+            z-index: 2;
+            width: 85vw;
             background:#2f2f2f;
             box-shadow: 0 4px 8px rgba(85,84,84,.1);
             top: 0;
             left: 0;
             gap: 68px;
             text-align: center;
+            padding: 20px 0;
         }
     }
     &__item {
@@ -92,7 +96,9 @@
         @media screen and (max-width: 800px) {
             font-size: 12px;
         }
-        
+    }
+    &__link {
+        text-decoration: none;
     }
 }
 

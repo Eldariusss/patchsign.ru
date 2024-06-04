@@ -30,7 +30,10 @@
     &__content {
         display: flex;
         flex-direction: column;
-        width: 50vw;
+        width: 36vw;
+        @media screen and (max-width: 620px) {
+            width: 50vw;
+        }
     }
     &__text {
         text-align: left;

@@ -19,6 +19,9 @@
         @media screen and (max-width: 620px) {
             font-size: 65px;
         }
+        @media screen and (max-width: 522px) {
+            font-size: 50px;
+        }
         
     }
     &__subtitle {
@@ -32,6 +35,9 @@
         }
         @media screen and (max-width: 620px) {
             font-size: 9px;
+        }
+        @media screen and (max-width: 522px) {
+            font-size: 8px;
         }
     }
 }
