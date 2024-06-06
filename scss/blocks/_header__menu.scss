@@ -80,13 +80,21 @@
             position: absolute;
             z-index: 2;
             width: 85vw;
-            background:#2f2f2f;
+            background-image: linear-gradient(to right, #434343 0%, black 100%);
             box-shadow: 0 4px 8px rgba(85,84,84,.1);
             top: 0;
             left: 0;
             gap: 68px;
             text-align: center;
             padding: 20px 0;
+        }
+        @media screen and (max-width: 800px) {
+            gap: 33px;
+        }
+        @media screen and (max-width: 476px) {
+            gap: 39px;
+            width: 83vw;
+            margin-top: 15%;
         }
     }
     &__item {

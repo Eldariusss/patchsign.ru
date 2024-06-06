@@ -97,9 +97,13 @@
             width: 230px;
             height: 230px;
         }
-        @media screen and (max-width: 522px) {
+        @media screen and (max-width: 476px) {
             width: 200px;
             height: 200px;
+        }
+        @media screen and (max-width: 410px) {
+            width: 167px;
+            height: 167px;
         }
     }
 }

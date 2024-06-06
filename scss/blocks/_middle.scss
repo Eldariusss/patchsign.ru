@@ -14,10 +14,13 @@
          @media screen and (max-width: 620px) {
             width: 50vw;
         }
+        @media screen and (max-width: 476px) {
+            width: 60%;
+        }
     }
     &__picture-solo {
         filter: grayscale(100%);
-        max-width: 76%;
+        max-width: 79%;
 
         
     }
@@ -48,6 +51,9 @@
         }
         @media screen and (max-width: 620px) {
             font-size: 9px;
+        }
+        @media screen and (max-width: 476px) {
+            font-size: 10px;
         }
         
     }
