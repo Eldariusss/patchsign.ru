@@ -96,6 +96,9 @@
             width: 83vw;
             margin-top: 15%;
         }
+        @media screen and (max-width: 400px) {
+            margin-top: 18%;
+        }
     }
     &__item {
         @media screen and (max-width: 1024px) {
