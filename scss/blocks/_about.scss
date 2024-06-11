@@ -15,10 +15,11 @@
         align-items: flex-start;
         justify-content: space-between;
         gap: 10px;
-        @media screen and (max-width: 400px) {
+        @media screen and (max-width: 420px) {
             flex-flow: column nowrap;
             align-items: center;
             justify-content: center;
+            text-align: center;
         }
     }
     &__text {
@@ -34,6 +35,10 @@
         @media screen and (max-width: 476px) {
             width: 144%;
         }
+        @media screen and (max-width: 476px) {
+            width: 100%;
+        }
+        
     }
     &__title {
         font-weight: 700;
@@ -97,8 +102,9 @@
         @media screen and (max-width: 476px) {
             width: 124%;
         }
-        @media screen and (max-width: 400px) {
+        @media screen and (max-width: 420px) {
             width: 100%;
+            max-width: 320px;
         }
     }
 }

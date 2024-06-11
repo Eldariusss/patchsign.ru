@@ -59,6 +59,9 @@
         @media screen and (max-width: 620px) {
             gap: 8px;
         }
+        @media screen and (max-width: 350px) {
+            flex-flow: column nowrap;
+        }
     }
     &__cercle-one, &__cercle-two {
         display: flex;
@@ -105,5 +108,6 @@
             width: 167px;
             height: 167px;
         }
+        
     }
 }

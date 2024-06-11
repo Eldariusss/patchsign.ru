@@ -53,6 +53,10 @@
             border: 1px solid rgb(255, 255, 255);
             text-align: center;
         }
+        @media screen and (max-width: 420px) {
+            padding-right: 0;
+        }
+        
     }
     &__vecro-num {
         font-weight: 400;
@@ -108,6 +112,15 @@
             padding-left: 25px;
             border: 1px solid rgb(255, 255, 255);
          }
+         @media screen and (max-width: 800px) {
+            gap: 33px;
+            border: 1px solid rgb(255, 255, 255);
+            text-align: center;
+        }
+        @media screen and (max-width: 420px) {
+            padding-left: 0;
+        }
+        
     }
     &__glue-num {
         font-weight: 400;
