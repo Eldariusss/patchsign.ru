@@ -55,9 +55,7 @@
             gap: 33px;
             border: 1px solid rgb(255, 255, 255);
             text-align: center;
-        }
-        @media screen and (max-width: 420px) {
-            padding-right: 0;
+            padding: 17px 13px;
         }
         
     }
@@ -78,8 +76,20 @@
         @media screen and (max-width: 1282px) {
             font-size: 17px;
         }
+        @media screen and (max-width: 1120px) {
+            font-size: 14px;
+        }
+        @media screen and (max-width: 849px) {
+            font-size: 12px;
+        }
         @media screen and (max-width: 800px) {
-            font-size: 21px;
+            font-size: 19px;
+        }
+        @media screen and (max-width: 541px) {
+            font-size: 15px;
+        }
+        @media screen and (max-width: 433px) {
+            font-size: 13px;
         }
     }
     &__vecro-pic {
@@ -93,11 +103,15 @@
     &__vecro-subtitle {
         font-weight: 400;
         text-align: center;
+        @media screen and (max-width: 1282px) {
+            font-size: 14px;
+        }
         @media screen and (max-width: 1024px) {
             font-size: 14px;
          }
          @media screen and (max-width: 800px) {
-            font-size: 12px;
+            font-size: 14px;
+            margin-bottom: 40px;
         }
         @media screen and (max-width: 522px) {
             font-size: 10px;
@@ -117,17 +131,13 @@
         padding-bottom: 100px;
         @media screen and (max-width: 1024px) {
             padding-left: 25px;
-            border: 1px solid rgb(255, 255, 255);
          }
          @media screen and (max-width: 800px) {
             gap: 33px;
             border: 1px solid rgb(255, 255, 255);
             text-align: center;
-        }
-        @media screen and (max-width: 420px) {
-            padding-left: 0;
-        }
-        
+            padding: 17px 13px;
+        } 
     }
     &__glue-num {
         font-weight: 400;
@@ -146,8 +156,20 @@
         @media screen and (max-width: 1282px) {
             font-size: 17px;
         }
+        @media screen and (max-width: 1120px) {
+            font-size: 14px;
+        }
+        @media screen and (max-width: 849px) {
+            font-size: 12px;
+        }
         @media screen and (max-width: 800px) {
-            font-size: 21px;
+            font-size: 19px;
+        }
+        @media screen and (max-width: 541px) {
+            font-size: 15px;
+        }
+        @media screen and (max-width: 433px) {
+            font-size: 13px;
         }
     }
     &__glue-pic {
@@ -163,11 +185,15 @@
     &__glue-subtitle {
         font-weight: 400;
         text-align: center;
+        @media screen and (max-width: 1282px) {
+            font-size: 14px;
+        }
         @media screen and (max-width: 1024px) {
             font-size: 14px;
          }
          @media screen and (max-width: 800px) {
-            font-size: 12px;
+            font-size: 14px;
+            margin-bottom: 40px;
         }
         @media screen and (max-width: 522px) {
             font-size: 10px;

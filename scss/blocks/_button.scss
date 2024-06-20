@@ -27,6 +27,11 @@
         padding: 7px 0px;
         width: 37vw;
     }
+    @media screen and (max-width: 476px) {
+        font-size: 9px;
+        padding: 7px 0px;
+        width: 45vw;
+    }
     &-svg {
         display: inline-block;
         width: 28px;
