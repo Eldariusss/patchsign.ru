@@ -17,10 +17,20 @@
         @media screen and (max-width: 476px) {
             width: 60%;
         }
+        @media screen and (max-width: 420px) {
+            width: 97vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-left: 13PX;
+        }
     }
     &__picture-solo {
         filter: grayscale(100%);
         max-width: 79%;
+        @media screen and (max-width: 420px) {
+            max-width: 100%;
+        }
 
         
     }
@@ -29,6 +39,11 @@
         flex-flow: row nowrap;
         justify-content: flex-end;
         margin-top: 190px;
+        @media screen and (max-width: 420px) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
     }
     &__content {
         display: flex;
@@ -37,12 +52,16 @@
         @media screen and (max-width: 620px) {
             width: 50vw;
         }
+        @media screen and (max-width: 420px) {
+            width: 93vw;
+        }
     }
     &__text {
         text-align: left;
     }
     &__text-title {
         font-weight: 400;
+        line-height: 22px;
         @media screen and (max-width: 1024px) {
             font-size: 13px;
         }
@@ -63,6 +82,9 @@
         justify-content: flex-end;
         @media screen and (max-width: 620px) {
             width: 50vw;
+        }
+        @media screen and (max-width: 420px) {
+            width: 93vw;
         }
     }
     &__photo-text {

@@ -47,7 +47,7 @@
         text-align: end;
         padding-right: 80px;
         padding-top: 20px;
-        padding-bottom: 132px;
+        padding-bottom: 140px;
         @media screen and (max-width: 1024px) {
             padding-right: 25px;
          }
@@ -102,7 +102,10 @@
     }
     &__vecro-subtitle {
         font-weight: 400;
-        text-align: center;
+        text-align: right;
+        margin-top: 10%;
+        line-height: 22px;
+        width: 43vw;
         @media screen and (max-width: 1282px) {
             font-size: 14px;
         }
@@ -111,10 +114,14 @@
          }
          @media screen and (max-width: 800px) {
             font-size: 14px;
-            margin-bottom: 40px;
+            width: 96vw;
         }
         @media screen and (max-width: 522px) {
             font-size: 10px;
+        }
+        @media screen and (max-width: 420px) {
+            font-size: 10px;
+            width: 93vw;
         }
     }
 
@@ -184,7 +191,10 @@
     
     &__glue-subtitle {
         font-weight: 400;
-        text-align: center;
+        text-align: left;
+        margin-top: 10%;
+        line-height: 22px;
+        width: 43vw;
         @media screen and (max-width: 1282px) {
             font-size: 14px;
         }
@@ -194,9 +204,14 @@
          @media screen and (max-width: 800px) {
             font-size: 14px;
             margin-bottom: 40px;
+            width: 96vw;
         }
         @media screen and (max-width: 522px) {
             font-size: 10px;
+        }
+        @media screen and (max-width: 420px) {
+            font-size: 10px;
+            width: 93vw;
         }
     }
 }
